@@ -147,14 +147,13 @@ html {
   padding: 20px;
   display: grid;
   grid-gap: 20px;
-  margin: 0 auto;
 }
 
 .row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-gap: 20px;
-  margin: 0 auto;
+  width: 100%;
 }
 
 .col {
