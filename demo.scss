@@ -1,0 +1,13 @@
+$green: #05c089;
+
+@mixin rounded-corners {
+  border-radius: 5px;
+}
+
+.row div {
+  @include rounded-corners();
+  background: $green;
+  height: 200px;
+  width: 100%;
+  text-align: center;
+}
